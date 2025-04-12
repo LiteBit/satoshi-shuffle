@@ -1,0 +1,27 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE files (e.g., VS Code)
+.vscode/
+
+# Frontend build artifacts
+frontend/build/
+frontend/dist/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Docker files (if applicable)
+docker-compose.override.yml
