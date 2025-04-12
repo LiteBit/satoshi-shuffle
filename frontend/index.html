@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Satoshi Shuffle</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Satoshi Shuffle</h1>
+    <p>Provably Fair Betting (0–69,419)</p>
+  </div>
+
+  
+  <div class="bet-section">
+    <input type="number" id="betAmount" placeholder="Bet Amount (sats)" min="1">
+    <select id="rangeSelect">
+      <option value="10">10% Range (Odds: 9.81:1)</option>
+      
+    </select>
+    <button onclick="placeBet()">Place Bet</button>
+  </div>
+
+  
+  <div class="outcome-section">
+    <p>Result: <span id="result"></span></p>
+    <p>Payout: <span id="payout"></span> sats</p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
